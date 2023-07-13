@@ -70,3 +70,62 @@ body {
     width: 50%;
     height: 50%;
 }
+.product-block-left {
+    margin-top: 50px;
+    margin-left: 40px;
+    width: 50%;
+    float: left;
+    clear: both;
+    position: relative;
+}
+.product-wrapper {
+    display: flex;
+  }
+
+  .product {
+    flex: 1;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-right: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+
+  .product h2 {
+    color: #333;
+  }
+
+  .product p {
+    color: #777;
+    margin-bottom: 10px;
+  }
+
+  .product .price {
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  .product .rating {
+    color: gold;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
+  .product .visitors {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  .product button {
+    background-color: #E74C3C;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }

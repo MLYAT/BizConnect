@@ -40,12 +40,3 @@ body {
     line-height: 30px;
     color: #555555;
 }
-.header {
-    position: fixed;
-    top: 0;
-    text-align: center; 
-    width: 100%;   
-    font-size: 19px;
-    color: #fafaff;  
-    font-family: "Goudy Bookletter 1911", sans-serif;
-}

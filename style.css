@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+.main-block {
+  margin-top: 0px;
+  margin-left: 40px;
+  width: 680px;
+  float: left;
+}
+.main-text {
+    font-family: "Goudy Bookletter 1911", sans-serif;
+    font-size: 70px;
+}
+.description-main-text {
+    font-family: "Goudy Bookletter 1911", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #555555;
+}
+.partner-block {
+    margin-top: 50px;
+    margin-left: 40px;
+    width: 680px;
+    float: left;
+}
+.partner-text {
+    font-family: "Goudy Bookletter 1911", sans-serif;
+    font-size: 70px;
+}
+.description-partner-text {
+    font-family: "Goudy Bookletter 1911", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #555555;
+}

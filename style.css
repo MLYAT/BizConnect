@@ -49,7 +49,7 @@ body {
     top: 50%;
     right: -85%; 
     transform: translateY(-50%);
-    background-image: url('/img/logo.png');
+    background-image: url('./img/logo.png');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -63,7 +63,7 @@ body {
     top: 50%;
     right: -75%;
     transform: translateY(-50%);
-    background-image: url('/img/partner.png');
+    background-image: url('./img/partner.png');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;

@@ -5,9 +5,10 @@ body {
 .main-block-left {
   margin-top: 0px;
   margin-left: 40px;
-  width: 680px;
+  width: 50%;
   float: left;
-  clear: both
+  clear: both;
+  position: relative;
 }
 .main-text {
     font-family: "Goudy Bookletter 1911", sans-serif;
@@ -21,12 +22,13 @@ body {
     line-height: 30px;
     color: #555555;
 }
-.partner-block {
+.partner-block-left {
     margin-top: 50px;
     margin-left: 40px;
-    width: 680px;
+    width: 50%;
     float: left;
-    clear: both
+    clear: both;
+    position: relative;
 }
 .partner-text {
     font-family: "Goudy Bookletter 1911", sans-serif;
@@ -39,4 +41,32 @@ body {
     font-size: 18px;
     line-height: 30px;
     color: #555555;
+}
+.main-block-left::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: -85%; 
+    transform: translateY(-50%);
+    background-image: url('/img/logo.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 70%; 
+    height: 70%;
+}
+.partner-block-left::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: -75%;
+    transform: translateY(-50%);
+    background-image: url('/img/partner.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 50%;
 }

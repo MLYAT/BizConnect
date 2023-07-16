@@ -1,7 +1,41 @@
-body {
+/* Стили для формы и кнопки */
+form {
+    margin-bottom: 20px;
     text-align: center;
-}
-.error {
-    font-size: 66px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .button-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Стили для отображения ошибки */
+  .error {
+    color: red;
+    margin-top: 10px;
+    text-align: center;
+  }
+  body {
+    font-family: "Goudy Bookletter 1911", sans-serif;
+  }
+h1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: "Goudy Bookletter 1911", sans-serif;
+    font-size: 50px;
     font-weight: bold;
 }

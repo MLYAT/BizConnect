@@ -6,11 +6,38 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>VISA - Покупка товаров</title>
     <link rel="stylesheet" href="error.css">
+    <link href="https://fonts.googleapis.com/css?family=DM+Sans" rel="stylesheet">
 </head>
 <body>
-    <p class="error">Error 418</p>
-    <form action="index.html" target="_blank">
-        <button>Back to page</button>
-      </form>
+    <h1>Оплата</h1>
+    
+    <form id="paymentForm">
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+      <p><label for="package">Пакет:</label>
+        <select id="package" required>
+          <option value="general">Общий пакет</option>
+          <option value="websites">Пакет сайтов</option>
+          <option value="trainers">Пакет тренеров</option>
+          <option value="custom">Свой пакет</option>
+        </select></p>
+      
+      
+      <label for="paymentMethod">Способ оплаты:</label>
+      <select id="paymentMethod" required>
+        <option value="visa">VISA</option>
+        <option value="mastercard">MasterCard</option>
+        <option value="qiwi">Qiwi</option>
+        <option value="yandex">Yandex Деньги</option>
+      </select>
+      
+      <div class="button-container">
+        <input type="submit" value="Перейти к оплате">
+      </div>
+    </form>
+    
+    <div id="errorMessage" class="error"></div>
+
+      <script src="script.js"></script>
 </body>
 </html>

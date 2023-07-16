@@ -1,7 +1,7 @@
 window.addEventListener('scroll', function() {
-    var scrollButton = document.getElementById('scroll-to-top');
-    var mainBlock = document.querySelector('.main-block-left');
-    var scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+    let scrollButton = document.getElementById('scroll-to-top');
+    let mainBlock = document.querySelector('.main-block-left');
+    let scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
   
     if (scrollPosition > mainBlock.offsetHeight) {
       scrollButton.classList.add('show');
